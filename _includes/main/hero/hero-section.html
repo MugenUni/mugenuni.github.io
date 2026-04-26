@@ -1,0 +1,6 @@
+<section class="hero">
+  {% if page.heroPanel %}
+    {% include {{ page.heroPanel }} %}
+  {% endif %}
+  {{ content }}
+</section>

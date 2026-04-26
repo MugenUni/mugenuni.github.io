@@ -1,0 +1,20 @@
+- title: "Emotion Profiler & Music Recommender"
+  description: "Electron + Flask app that detects facial emotion in real time and recommends Spotify tracks. Uses a Vision Transformer for emotion classification, reaching 81% accuracy."
+  tags:
+    - Python
+    - TypeScript
+    - Vue.js
+    - Flask
+    - Electron
+    - Machine Learning
+  github: "https://gitfront.io/r/izusl/reTUFDGeVPmx/Senior-Project/"
+  image: "assets/images/projects/Emotion_Profiler_&_Music_Recommender.png"
+
+- title: "Campus Path Planner"
+  description: "Python tool that finds the shortest walking route between buildings on the SAU campus using Dijkstra's algorithm and a hand-built graph of campus nodes."
+  tags:
+    - Python
+    - Algorithms
+    - Graph Theory
+  github: "https://github.com/MugenUni/SAU-Schedule-Organizer-and-Path-Planner"
+  image: "assets/images/projects/Campus Center.png"

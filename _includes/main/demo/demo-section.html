@@ -1,0 +1,15 @@
+<div class="media-container">
+    {% assign demo = "/assets/videos/demo.mp4" %}
+
+    {% if demo %}
+        <video width="100%" height="auto" controls autoplay loop muted>
+            <source src="{{ demo }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    {% else %}
+        <div class="media-placeholder">
+            <h3>Featured Project</h3>
+            <p>Demo video or embed will appear here</p>
+        </div>
+    {% endif %}
+</div>

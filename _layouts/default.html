@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="{{ site.description }}" />
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  {% seo %}
+</head>
+<body>
+
+  <nav>
+    {% if page.navLayer %}
+      {% include {{ page.navLayer }} %}
+    {% endif %}
+    {{ content }}
+  </nav>
+
+  <main>
+    {% if page.mainLayer %}
+      {% include {{ page.mainLayer }} %}
+    {% endif %}
+    {{ content }}
+  </main>
+
+  <div class="tabs-container">
+    {% if page.tabsLayer %}
+      {% include {{ page.tabsLayer }} %}
+    {% endif %}
+    {{ content }}
+  </div>
+
+  <footer>
+    {% if page.footerLayer %}
+      {% include {{ page.footerLayer }} %}
+    {% endif %}
+    {{ content }}
+  </footer>
+
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>

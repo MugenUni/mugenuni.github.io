@@ -1,0 +1,13 @@
+<a href="/" class="nav-logo">A.H.</a>
+
+<div class="button-container">
+    {% for button in site.data.nav-social-buttons %}
+        <a href="{{ button.url }}" target="_blank" class="social-button {{ button.label | downcase }}-button">
+            <img src="{{ button.img_src }}" alt="{{ button.label }}" class="{{ button.label | downcase }}-logo">
+        </a>
+    {% endfor %}
+</div>
+
+<a href="assets/documents/Andre_Harris-Resume.pdf" id="download-resume" target="_blank">
+  <p>Download Resume</p>
+</a>

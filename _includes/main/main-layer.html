@@ -1,0 +1,24 @@
+<div class="layout-grid">
+
+    <div class="grid-hero">
+        {% if page.heroSection %}
+            {% include {{ page.heroSection }} %}
+        {% endif %}
+        {{ content }}
+    </div>
+
+    <div class="grid-demo">
+        {% if page.demoSection %}
+            {% include {{ page.demoSection }} %}
+        {% endif %}
+        {{ content }}
+    </div>
+
+    <div class="grid-panels">
+        {% if page.slidingSection %}
+            {% include {{ page.slidingSection }} %}
+        {% endif %}
+        {{ content }}
+    </div>
+
+</div>

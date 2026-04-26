@@ -1,0 +1,27 @@
+- company: "J.B. Hunt Transport, Inc."
+  location: "Lowell, AR"
+  role: "Software Development Intern"
+  period: "May - Aug. 2025"
+  highlights:
+    - "Built and maintained Java/Spring Boot microservices as part of a distributed backend team."
+    - "Set up Azure DevOps CI/CD pipelines to automate testing and deployment across environments."
+    - "Wrote RESTful API endpoints and unit tests using JUnit and Mockito."
+    - "Used Docker and Kubernetes to deploy and monitor containerized services."
+    - "Participated in QA and buddy testing for several user stories each sprint."
+  tags:
+    - Java
+    - Spring Boot
+    - Kubernetes
+    - Azure DevOps
+    - Docker
+    - JUnit
+
+- company: "Southern Arkansas University - Magale Library"
+  location: "Magnolia, AR"
+  role: "Student Worker"
+  period: "Jan. 2024 - Dec. 2025"
+  highlights:
+    - "Helped manage checkout operations and book inventory for daily library patrons."
+  tags:
+    - Operations
+    - Customer Service

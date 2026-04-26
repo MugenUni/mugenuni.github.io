@@ -1,0 +1,15 @@
+- label: GitHub
+  url: "https://github.com/MugenUni"
+  img_src: "https://companieslogo.com/img/orig/github-97592640.png?t=1720244494"
+
+- label: LinkedIn
+  url: "https://www.linkedin.com/in/andre-harris-b64610268/"
+  img_src: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Linkedin_logo.svg"
+
+- label: Indeed
+  url: "https://profile.indeed.com/p/andreh-tt4272q"
+  img_src: "https://upload.wikimedia.org/wikipedia/commons/9/90/Cib-indeed_%28CoreUI_Icons_v1.0.0%29.svg"
+
+- label: Handshake
+  url: "https://app.joinhandshake.com/profiles/8tnhjc"
+  img_src: "assets/images/logos/handshake.png"

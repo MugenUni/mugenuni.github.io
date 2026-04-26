@@ -1,0 +1,21 @@
+
+<div class="sliding-content" id="experience-panel">
+    {% if page.experiencePanel %}
+        {% include {{ page.experiencePanel }} %}
+    {% endif %}
+    {{ content }}
+</div>
+
+<div class="sliding-content" id="skills-panel">
+    {% if page.skillsPanel %}
+        {% include {{ page.skillsPanel }} %}
+    {% endif %}
+    {{ content }}
+</div>
+
+<div class="sliding-content" id="projects-panel">
+    {% if page.projectsPanel %}
+        {% include {{ page.projectsPanel }} %}
+    {% endif %}
+    {{ content }}
+</div>

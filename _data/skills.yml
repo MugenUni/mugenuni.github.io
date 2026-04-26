@@ -1,0 +1,40 @@
+professional:
+  label: "Used at Work"
+  items:
+    - Java
+    - Spring Boot
+    - Microsoft SQL Server
+    - Kubernetes
+    - Microsoft Azure
+    - Docker
+    - Maven
+    - Azure DevOps
+
+personal:
+  label: "Personal Projects"
+  items:
+    - Python
+    - TypeScript
+    - JavaScript
+    - Vue.js
+    - Flask
+    - Electron
+    - NumPy
+    - Pandas
+
+familiar:
+  label: "Familiar With"
+  items:
+    - C++
+    - C#
+    - C
+    - PHP
+    - MySQL
+
+certifications:
+  label: "Certifications"
+  items:
+    - Microsoft Word
+    - Microsoft Excel
+    - Microsoft PowerPoint
+    - ACT WorkKeys Platinum

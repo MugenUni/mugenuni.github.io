@@ -1,0 +1,15 @@
+<div class="sliding-content-inner" id="skills-content">
+    <p class="label">Skills</p>
+    {% for category_hash in site.data.skills %}
+    {% assign key = category_hash[0] %}
+    {% assign category = category_hash[1] %}
+    <div class="skill-group">
+    <p class="skill-group-label">{{ category.label }}</p>
+    <div class="tags">
+        {% for item in category.items %}
+        <span class="tag">{{ item }}</span>
+        {% endfor %}
+    </div>
+    </div>
+    {% endfor %}
+</div>

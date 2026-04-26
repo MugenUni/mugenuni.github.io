@@ -1,0 +1,22 @@
+<div class="sliding-content-inner" id="experience-content">
+    <p class="label">Experience</p>
+    {% for job in site.data.experience %}
+    <article class="job">
+    <div class="job-header">
+        <span class="job-role">{{ job.role }}</span>
+        <span class="job-period">{{ job.period }}</span>
+    </div>
+    <p class="job-company">{{ job.company }} &middot; {{ job.location }}</p>
+    <ul>
+        {% for item in job.highlights %}
+        <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+    <div class="tags">
+        {% for tag in job.tags %}
+        <span class="tag">{{ tag }}</span>
+        {% endfor %}
+    </div>
+    </article>
+    {% endfor %}
+</div>
