@@ -2,7 +2,15 @@
     <p class="label">Projects</p>
     <div class="projects-grid">
         {% for project in site.data.projects %}
-            <a href="{{ project.github }}" target="_blank" class="project-link" style="background-image: url('{{ project.image }}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+            <a
+                {% if project.github %}
+                    href="{{ project.github }}" target="_blank"
+                {% else %}
+                    href="javascript:void(0);"
+                {% endif %}
+                class="project-link"
+                style="background-image: url('{{ project.image }}'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+            >
                 <article class="project">
                     <div class="project-content">
                         <div class="project-header">
@@ -10,7 +18,7 @@
                         </div>
                         <div class="tags">
                             {% for tag in project.tags %}
-                            <span class="tag">{{ tag }}</span>
+                                <span class="tag">{{ tag }}</span>
                             {% endfor %}
                         </div>
                     </div>

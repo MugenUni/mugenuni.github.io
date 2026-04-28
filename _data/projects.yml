@@ -7,7 +7,7 @@
     - Flask
     - Electron
     - Machine Learning
-  github: "https://gitfront.io/r/izusl/reTUFDGeVPmx/Senior-Project/"
+  github: 
   image: "assets/images/projects/Emotion_Profiler_&_Music_Recommender.png"
 
 - title: "Campus Path Planner"
