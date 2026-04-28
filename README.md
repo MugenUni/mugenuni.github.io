@@ -55,7 +55,13 @@ Personal portfolio built with Jekyll, designed for deployment on GitHub Pages.
 ### Prerequisites
 
 - Ruby 3.0+
+- RubyGems
+- GCC
+- Make
 - Bundler
+- Jekyll
+
+Quickstart Guide: https://jekyllrb.com/docs/
 
 ### Setup
 
